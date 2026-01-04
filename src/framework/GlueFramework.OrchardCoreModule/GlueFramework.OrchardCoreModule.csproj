@@ -9,16 +9,7 @@
 		<Title>Glue Framework OrchardCore Module</Title>
 		<Version>1.0.0</Version>
 	</PropertyGroup>
-
-	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-		<GenerateAssemblyInfo>False</GenerateAssemblyInfo>
-		<Title>Glue Framework OrchardCore Module</Title>
-		<PublishWebProject>false</PublishWebProject>
-		<EnableSdkDefaultItems>true</EnableSdkDefaultItems>
-		<IsPackable>true</IsPackable>
-		<DefaultItemExcludes>$(DefaultItemExcludes);wwwroot/**;appsettings*.json</DefaultItemExcludes>
-	</PropertyGroup>
-
+ 
 	<ItemGroup>
 	  <Compile Remove="Controllers\**" />
 	  <Compile Remove="Demo\**" />

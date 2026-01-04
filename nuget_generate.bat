@@ -5,7 +5,7 @@ setlocal enabledelayedexpansion
 rem Define project root directory (modify as needed, assuming the script is executed in the solution root)
 set "PROJECT_ROOT=."
 rem Define NuGet package output directory
-set "NUGET_OUTPUT_DIR=./src/nuget_packages"
+set "NUGET_OUTPUT_DIR=./nuget_packages"
 
 rem Automatically create NuGet output directory if it does not exist (avoid pack failure due to missing directory)
 if not exist "%NUGET_OUTPUT_DIR%" md "%NUGET_OUTPUT_DIR%"

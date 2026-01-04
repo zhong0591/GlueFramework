@@ -9,16 +9,7 @@
 		<Title>Glue Framework OrchardCore Observablity</Title>
 		<Version>1.0.0</Version>
 	</PropertyGroup>
-
-	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-		<GenerateAssemblyInfo>False</GenerateAssemblyInfo>
-		<Title>Glue Framework OrchardCore Observablity</Title>
-		<PublishWebProject>false</PublishWebProject>
-		<EnableSdkDefaultItems>true</EnableSdkDefaultItems>
-		<IsPackable>true</IsPackable>
-		<DefaultItemExcludes>$(DefaultItemExcludes);wwwroot/**;appsettings*.json</DefaultItemExcludes>
-	</PropertyGroup>
-
+ 
 	<ItemGroup>
 		<FrameworkReference Include="Microsoft.AspNetCore.App" />
 	</ItemGroup>

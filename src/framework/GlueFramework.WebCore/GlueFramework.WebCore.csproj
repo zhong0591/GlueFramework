@@ -14,15 +14,7 @@
 		<GenerateAssemblyInfo>False</GenerateAssemblyInfo>
 	</PropertyGroup>
 
-	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-		<GenerateAssemblyInfo>False</GenerateAssemblyInfo>
-		<Title>Glue Framework Web Core</Title>
-		<PublishWebProject>false</PublishWebProject>
-		<EnableSdkDefaultItems>true</EnableSdkDefaultItems>
-		<IsPackable>true</IsPackable> 
-		<DefaultItemExcludes>$(DefaultItemExcludes);wwwroot/**;appsettings*.json</DefaultItemExcludes>
-	</PropertyGroup>
-
+	 
 	<ItemGroup>
 		<Compile Remove="Controllers\**" />
 		<Compile Remove="IServices\**" />
